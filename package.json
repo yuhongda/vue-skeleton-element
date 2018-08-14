@@ -1,0 +1,23 @@
+{
+  "name": "vue-skeleton-element",
+  "version": "1.0.0",
+  "description": "A skeleton element component for vue",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuhongda/vue-skeleton-element.git"
+  },
+  "keywords": [
+    "skeleton",
+    "vue"
+  ],
+  "author": "yu.hongda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yuhongda/vue-skeleton-element/issues"
+  },
+  "homepage": "https://github.com/yuhongda/vue-skeleton-element#readme"
+}
