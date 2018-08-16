@@ -75,6 +75,12 @@ Options
 #### data (Object | Array | String)
 This is the data you're waiting to load. The skeleton element will show when data is <code>null</code>
 
+#### repeat (Number)
+The count of the gray line in <code>&lt;skeleton-list/&gt;</code>
+
+#### enable-animation (Boolean)
+set <code>true</code> to enable the animation
+
 Result
 -----
 
