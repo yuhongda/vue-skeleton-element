@@ -4,6 +4,8 @@
   "description": "A skeleton element component for vue",
   "main": "dist/index.js",
   "scripts": {
+    "dev": "node build/dev-server.js",
+    "build": "node build/build.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +21,46 @@
   "bugs": {
     "url": "https://github.com/yuhongda/vue-skeleton-element/issues"
   },
-  "homepage": "https://github.com/yuhongda/vue-skeleton-element#readme"
+  "homepage": "https://github.com/yuhongda/vue-skeleton-element#readme",
+  "dependencies": {
+    "vue": "^2.5.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.1",
+    "awesome-typescript-loader": "^5.2.0",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^6.2.10",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "chalk": "^2.4.1",
+    "connect-history-api-fallback": "^1.5.0",
+    "copy-webpack-plugin": "^4.5.2",
+    "css-loader": "^0.28.0",
+    "eventsource-polyfill": "^0.9.6",
+    "express": "^4.16.3",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "http-proxy-middleware": "^0.18.0",
+    "node-sass": "^4.7.2",
+    "opn": "^5.3.0",
+    "ora": "^3.0.0",
+    "postcss-loader": "^3.0.0",
+    "postcss-smart-import": "^0.7.6",
+    "precss": "^3.1.2",
+    "rimraf": "^2.6.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.13.0",
+    "stylus-loader": "^1.4.2",
+    "url-loader": "^0.5.8",
+    "vue-loader": "^13.5.0",
+    "vue-router": "^3.0.1",
+    "vue-style-loader": "^3.0.1",
+    "vue-template-compiler": "^2.5.3",
+    "webpack": "^3.11.0",
+    "webpack-dev-middleware": "^2.0.6",
+    "webpack-hot-middleware": "^2.22.3",
+    "webpack-merge": "^4.1.4"
+  }
 }

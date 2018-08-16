@@ -1,0 +1,42 @@
+@-webkit-keyframes lightAnim {
+    0% { left:0;opacity:0.5;  }
+    50% { left:50%;opacity:1; }
+    100% { left:100%; opacity:0.5;visibility: hidden; } 
+}
+
+@-moz-keyframes lightAnim {
+    0% { left:0;opacity:0.5;  }
+    50% { left:50%;opacity:1; }
+    100% { left:100%; opacity:0.5;visibility: hidden; } 
+}
+
+@-ms-keyframes lightAnim {
+    0% { left:0;opacity:0.5;  }
+    50% { left:50%;opacity:1; }
+    100% { left:100%; opacity:0.5;visibility: hidden; } 
+}
+
+@keyframes lightAnim {
+    0% { left:0;opacity:0.5;  }
+    50% { left:50%;opacity:1; }
+    100% { left:100%; opacity:0.5;visibility: hidden; } 
+}
+
+@function rem($n) {
+    @return $n / 75 + rem;
+}
+@mixin lightAnimation() {
+    content: ''; position: absolute; width: 200px; height: 100%; top: 0; left: 0; overflow: hidden; opacity: 0; z-index: 100;/*-webkit-transform: skewX(25deg); -moz-transform: skewX(25deg);*/
+    background: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.8) 50%, rgba(255,255,255,0) 100%);
+    background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,.8) 50%,rgba(255,255,255,0) 100%);
+    background: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,.8) 50%,rgba(255,255,255,0) 100%);
+    -moz-animation:lightAnim 2s infinite 1s linear; 
+    -o-animation:lightAnim 2s infinite 1s linear; 
+    -webkit-animation:lightAnim 2s infinite 1s linear; 
+    animation:lightAnim 2s infinite 1s linear; 
+}
+
+.clearfix:after, .wrapper:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+.clearfix { display: inline-block; }
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
