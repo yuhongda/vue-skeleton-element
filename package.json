@@ -1,6 +1,6 @@
 {
   "name": "vue-skeleton-element",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A skeleton element component for vue",
   "main": "dist/vue-skeleton-element.js",
   "scripts": {
