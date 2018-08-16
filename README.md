@@ -69,6 +69,12 @@ export default {
 
 ```
 
+Options
+-----
+
+#### data (Object | Array | String)
+This is the data you're waiting to load. The skeleton element will show when data is <code>null</code>
+
 Result
 -----
 
@@ -78,7 +84,7 @@ Result
 
 
 #### Mobile
-![image](https://user-images.githubusercontent.com/259410/44142906-5ab008ee-a0b4-11e8-96ec-c9585d990a29.png)
+<img width="346" src="https://user-images.githubusercontent.com/259410/44142906-5ab008ee-a0b4-11e8-96ec-c9585d990a29.png">
 
 
 
