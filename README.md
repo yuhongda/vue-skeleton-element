@@ -37,7 +37,7 @@ Usage
 ```
 
 ```javascript
-import { SkeletonList, SkeletonTitle, SkeletonPage } from '../src/index'
+import { SkeletonList, SkeletonTitle, SkeletonPage } from 'vue-skeleton-element'
 
 
 export default {
